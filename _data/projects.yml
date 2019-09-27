@@ -1,3 +1,11 @@
+- id: autotator
+  title: Autotator
+  pdf: /assets/Autotator.pdf
+  code: https://github.com/SoundGlance/SoundGlance
+  teaser: /images/Autotator.png
+  desc: A semi-automatic tool for annotating a large set of images. Powered by collaboration between human and deep learning models.
+  video: https://youtu.be/SE9rNYoa2ls
+
 - id: disentangling
   title: Disentangling Scatterplots Images
   pdf: /assets/Disentangled_Representation_of_Data_Distributions_in_Scatterplots.pdf

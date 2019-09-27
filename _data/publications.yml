@@ -17,6 +17,25 @@
   type: Paper
   selected: true
 
+- id: autotator
+  title: "Autotator: Semi-Automatic Approach for Accelerating the Chart Image Annotation Process"
+  authors:
+    - Junhoe Kim
+    - Jaemin Jo
+    - Jinwook Seo
+  presented:
+    title: ACM International Conference on Interactive Surfaces and Spaces
+    abbr: ISS 2019
+    url: https://iss.acm.org/2019/
+    venue: Daejeon, Korea, Republic of
+  year: 2019
+  # url: https://dl.acm.org/citation.cfm?id=3312865
+  attrs:
+    - international
+    - conference
+    - poster
+  type: Poster
+
 - id: soundglance
   title: "SoundGlance: Briefing the Glanceable Cues of Web Pages for Screen Reader Users"
   authors:
@@ -36,7 +55,7 @@
     - conference
     - poster
   type: Poster
-    
+
 - id: swifttuna
   title: "SwiftTuna: Responsive and Incremental Visual Exploration of Large-scale Multidimensional Data"
   year: 2017
