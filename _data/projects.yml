@@ -1,3 +1,11 @@
+- id: proreveal
+  title: ProReveal
+  pdf: /assets/ProReveal.pdf
+  code: https://github.com/proreveal/ProReveal
+  teaser: /images/ProReveal.png
+  desc: A new progressive visual analytics concept by leaving safeguards on uncertain intermediate knowledge
+  video: https://www.youtube.com/watch?v=RuIGrVyhciM
+
 - id: autotator
   title: Autotator
   pdf: /assets/Autotator.pdf
