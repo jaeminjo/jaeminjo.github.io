@@ -5,6 +5,7 @@
   teaser: /images/ProReveal.png
   desc: A new progressive visual analytics concept by leaving safeguards on uncertain intermediate knowledge
   video: https://www.youtube.com/watch?v=RuIGrVyhciM
+  selected: true
 
 - id: autotator
   title: Autotator
@@ -39,8 +40,7 @@
   pdf: /assets/TouchPivot.pdf
   video_short: https://www.youtube.com/watch?v=0hdiF9fCgFE
   video: https://www.youtube.com/watch?v=Q6quofDiO7I
-  teaser: /images/TouchPivot.png
-  selected: true
+  teaser: /images/TouchPivot.png  
   recording: https://www.youtube.com/watch?v=wpksrVF5MNw
   desc: TouchPivot is a novel interface that assists visual data exploration on tablet devices for novices.
 

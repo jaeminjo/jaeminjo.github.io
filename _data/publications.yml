@@ -98,7 +98,6 @@
     - conference
     - paper
   type: Paper
-  selected: true
   index: 1
 
 - id: touchpivot

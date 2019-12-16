@@ -6,7 +6,8 @@ order: 1
 {% assign publications = site.data.publications %}
 {% assign international_publications = publications | where_exp: "item", "item.attrs contains 'international'" | group_by: "year" | sort: "name" | reverse %}
 {% assign domestic_publications = publications | where_exp: "item", "item.attrs contains 'domestic'" | group_by: "year" | sort: "name" | reverse %}
-{% assign papers = publications | where_exp: "item", "item.type == 'Paper'" | group_by: "year" | sort: "name" | reverse %}
+{% assign papers = publications | where_exp: "item", "item.type == 'Paper'" | where_exp: "item", "item.attrs contains 'international'" | group_by: "year" | sort: "name" | reverse %}
+{% assign domestic_papers = publications | where_exp: "item", "item.type == 'Paper'" | where_exp: "item", "item.attrs contains 'domestic'" | group_by: "year" | sort: "name" | reverse %}
 
 {% assign others = "" | split: "" %}
 {% for pub in publications %}
@@ -14,16 +15,24 @@ order: 1
 {% assign others = others | push:pub %}
 {% endif %}
 {% endfor %}
-{% assign others = others | group_by: "year" | sort: "name" | reverse %}
 
 <h2>Peer-reviewed Papers</h2>
-
 {% for year in papers %}
 {% assign sorted = year.items | sort: "index" %}
 {% for pub in sorted %}
 {% include publication.html pub = pub %} 
 {% endfor %}
 {% endfor %}
+
+<h2>Peer-reviewed Domestic Papers</h2>
+{% for year in domestic_papers %}
+{% assign sorted = year.items | sort: "index" %}
+{% for pub in sorted %}
+{% include publication.html pub = pub %} 
+{% endfor %}
+{% endfor %}
+
+{% assign others = others | group_by: "year" | sort: "name" | reverse %}
 
 <h2>Posters and Patents</h2>
 
