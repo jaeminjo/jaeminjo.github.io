@@ -16,7 +16,6 @@ order: 1
 {% endif %}
 {% endfor %}
 
-<h2>Peer-reviewed Papers</h2>
 {% for year in papers %}
 {% assign sorted = year.items | sort: "index" %}
 {% for pub in sorted %}
@@ -24,7 +23,7 @@ order: 1
 {% endfor %}
 {% endfor %}
 
-<h2>Peer-reviewed Domestic Papers</h2>
+<h2>Domestic Publications</h2>
 {% for year in domestic_papers %}
 {% assign sorted = year.items | sort: "index" %}
 {% for pub in sorted %}

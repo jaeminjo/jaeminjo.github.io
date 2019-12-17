@@ -1,3 +1,17 @@
+- id: dissertation
+  title: "Designing Progressive Visualization Systems for Exploring Large-scale Data"
+  year: 2020
+  authors:
+    - Jaemin Jo
+  journal: 
+    title: Ph.D. Dissertation
+  url: /assets/Jaemin_Jo_Dissertation.pdf
+  noinfo: true
+  attrs:
+    - paper
+    - international
+  type: Paper
+
 - id: proreveal
   title: "ProReveal: Progressive Visual Analytics with Safeguards"
   year: 2020
@@ -29,7 +43,7 @@
     title: Proceedings of IEEE Information Visualization 2019
     abbr: IEEE InfoVis 2019 Short
     url: http://ieeevis.org/year/2019/welcome
-    ea: true
+    noinfo: true
     venue: Vancouver, Canada
   url: /assets/Disentangled_Representation_of_Data_Distributions_in_Scatterplots.pdf
   attrs:
