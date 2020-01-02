@@ -1,3 +1,24 @@
+- id: proreveal
+  title: "ProReveal: Progressive Visual Analytics with Safeguards"
+  year: 2020
+  authors:
+    - Jaemin Jo
+    - Sehi L'Yi
+    - Bongshin Lee
+    - Jinwook Seo
+  journal: 
+    title: IEEE Transactions on Visualization and Computer Graphics
+    abbr: TVCG
+    ea: true
+    url: https://www.computer.org/csdl/journal/tg
+  url: https://ieeexplore.ieee.org/document/8943144
+  attrs:
+    - international    
+    - journal
+    - paper
+  type: Paper
+  selected: true
+
 - id: dissertation
   title: "Designing Progressive Visualization Systems for Exploring Large-scale Data"
   year: 2020
@@ -12,27 +33,6 @@
     - international
   type: Paper
 
-- id: proreveal
-  title: "ProReveal: Progressive Visual Analytics with Safeguards"
-  year: 2020
-  authors:
-    - Jaemin Jo
-    - Sehi L'Yi
-    - Bongshin Lee
-    - Jinwook Seo
-  journal: 
-    title: IEEE Transactions on Visualization and Computer Graphics
-    abbr: TVCG
-    ea: true
-    url: https://www.computer.org/csdl/journal/tg
-  url: /assets/ProReveal.pdf
-  attrs:
-    - international    
-    - journal
-    - paper
-  type: Paper
-  selected: true
-
 - id: disentangling
   title: "Disentangled Representation of Data Distributions in Scatterplots"
   year: 2019
@@ -43,9 +43,9 @@
     title: Proceedings of IEEE Information Visualization 2019
     abbr: IEEE InfoVis 2019 Short
     url: http://ieeevis.org/year/2019/welcome
-    noinfo: true
     venue: Vancouver, Canada
-  url: /assets/Disentangled_Representation_of_Data_Distributions_in_Scatterplots.pdf
+  noinfo: true
+  url: https://ieeexplore.ieee.org/abstract/document/8933670
   attrs:
     - international    
     - paper
@@ -64,7 +64,7 @@
     url: https://iss.acm.org/2019/
     venue: Daejeon, Korea, Republic of
   year: 2019
-  # url: https://dl.acm.org/citation.cfm?id=3312865
+  url: https://dl.acm.org/doi/10.1145/3343055.3360741
   attrs:
     - international
     - conference
@@ -210,8 +210,10 @@
   journal:
     title: IEEE Transactions on Visualization and Computer Graphics
     abbr: TVCG
-    ea: true
     url: https://www.computer.org/csdl/journal/tg
+    volume: 26
+    issue: 2
+    page: 1347-1360
   url: https://ieeexplore.ieee.org/document/8462793
   attrs:
     - international
