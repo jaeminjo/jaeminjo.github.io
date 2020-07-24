@@ -1,3 +1,9 @@
+- id: pumap
+  title: Progressive Uniform Manifold Approximation and Projection
+  pdf: /assets/PUMAP.pdf
+  code: https://github.com/hyungkwonko/progressive-umap
+  hidden: true 
+
 - id: dissertation
   title: Designing Progressive Visualization Systems for Exploring Large-scale Data
   pdf: /assets/Jaemin_Jo_Dissertation.pdf

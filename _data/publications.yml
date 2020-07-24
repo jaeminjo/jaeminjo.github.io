@@ -1,3 +1,40 @@
+- id: hyperion
+  title: "Hyperion: A Visual Analytics Tool for an Intrusion Detection and Prevention System"
+  year: 2020
+  authors:
+    - Seunghoon Yoo
+    - Jaemin Jo
+    - Bohyoung Kim
+    - Jinwook Seo
+  journal:
+    title: IEEE Access 
+    ea: true
+    url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6287639
+  url: https://ieeexplore.ieee.org/document/9145532
+  attrs:
+    - international
+    - journal
+  type: Paper
+
+- id: pumap
+  title: Progressive Uniform Manifold Approximation and Projection
+  year: 2020
+  authors:
+    - Hyung-Kwon Ko
+    - Jaemin Jo
+    - Jinwook Seo
+  proc: 
+    title: Eurographics Proceedings
+    abbr: EuroVis 2020
+    url: https://conferences.eg.org/egev20/
+    venue: Norrköping, Sweden  
+    page: 133-137
+  url: https://diglib.eg.org/handle/10.2312/evs20201061
+  attrs:
+    - international    
+    - paper
+  type: Paper  
+
 - id: proreveal
   title: "ProReveal: Progressive Visual Analytics with Safeguards"
   year: 2020
