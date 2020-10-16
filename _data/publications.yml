@@ -1,3 +1,22 @@
+- id: comparative
+  title: "Comparative Layouts Revisited: Design Space, Guidelines, and Future Directions"
+  year: 2020
+  authors:
+    - Sehi L'Yi
+    - Jaemin Jo
+    - Jinwook Seo
+  journal:
+    title: IEEE Transactions on Visualization and Computer Graphics
+    abbr: TVCG, Proc. InfoVis
+    ea: true
+    url: https://www.computer.org/csdl/journal/tg
+  url: https://ieeexplore.ieee.org/document/9223736
+  attrs:
+    - international
+    - journal
+    - paper
+  type: Paper
+
 - id: hyperion
   title: "Hyperion: A Visual Analytics Tool for an Intrusion Detection and Prevention System"
   year: 2020
@@ -7,7 +26,7 @@
     - Bohyoung Kim
     - Jinwook Seo
   journal:
-    title: IEEE Access 
+    title: IEEE Access
     ea: true
     url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6287639
   url: https://ieeexplore.ieee.org/document/9145532
@@ -23,17 +42,17 @@
     - Hyung-Kwon Ko
     - Jaemin Jo
     - Jinwook Seo
-  proc: 
+  proc:
     title: Eurographics Proceedings
     abbr: EuroVis 2020
     url: https://conferences.eg.org/egev20/
-    venue: Norrköping, Sweden  
+    venue: Norrköping, Sweden
     page: 133-137
   url: https://diglib.eg.org/handle/10.2312/evs20201061
   attrs:
-    - international    
+    - international
     - paper
-  type: Paper  
+  type: Paper
 
 - id: proreveal
   title: "ProReveal: Progressive Visual Analytics with Safeguards"
@@ -43,14 +62,14 @@
     - Sehi L'Yi
     - Bongshin Lee
     - Jinwook Seo
-  journal: 
+  journal:
     title: IEEE Transactions on Visualization and Computer Graphics
     abbr: TVCG
     ea: true
     url: https://www.computer.org/csdl/journal/tg
   url: https://ieeexplore.ieee.org/document/8943144
   attrs:
-    - international    
+    - international
     - journal
     - paper
   type: Paper
@@ -61,7 +80,7 @@
   year: 2020
   authors:
     - Jaemin Jo
-  journal: 
+  journal:
     title: Ph.D. Dissertation
   url: /assets/Jaemin_Jo_Dissertation.pdf
   noinfo: true
@@ -76,7 +95,7 @@
   authors:
     - Jaemin Jo
     - Jinwook Seo
-  proc: 
+  proc:
     title: Proceedings of IEEE Information Visualization 2019
     abbr: IEEE InfoVis 2019 Short
     url: http://ieeevis.org/year/2019/welcome
@@ -84,7 +103,7 @@
   noinfo: true
   url: https://ieeexplore.ieee.org/abstract/document/8933670
   attrs:
-    - international    
+    - international
     - paper
   type: Paper
   selected: true
@@ -137,7 +156,7 @@
     - Seunghoon Yoo
     - Bohyoung Kim
     - Jinwook Seo
-  proc: 
+  proc:
     title: Proceedings of the 10th IEEE Pacific Visualization Symposium
     abbr: PacificVis 2017
     url: http://pacificvis.snu.ac.kr/
@@ -159,7 +178,7 @@
     - Sehi L'Yi
     - Bongshin Lee
     - Jinwook Seo
-  proc: 
+  proc:
     title: Proceedings of the 35th Annual ACM Conference on Human Factors in Computing Systems
     abbr: CHI 2017
     url: https://chi2017.acm.org/
@@ -173,7 +192,7 @@
   type: Paper
   selected: true
   index: 0
-  
+
 - id: cloakingnote
   title: "CloakingNote: A Novel Desktop Interface for Subtle Writing Using Decoy Texts"
   year: 2016
@@ -183,7 +202,7 @@
     - Jaemin Jo
     - Bohyoung Kim
     - Jinwook Seo
-  proc: 
+  proc:
     title: Proceedings of the 29th ACM User Interface Software and Technology Symposium
     abbr: UIST 2016
     url: https://uist.acm.org/uist2016/
@@ -195,7 +214,7 @@
     - conference
     - paper
   type: Paper
-  
+
 - id: eyebookmark
   title: "EyeBookmark: Assisting Recovery from Interruption during Reading"
   year: 2015
@@ -203,7 +222,7 @@
     - Jaemin Jo
     - Bohyoung Kim
     - Jinwook Seo
-  proc: 
+  proc:
     title: Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems
     abbr: CHI 2015
     url: http://chi2015.acm.org/
@@ -284,8 +303,6 @@
   selected: true
   index: 1
 
-
-
 - id: wordleplus
   title: "WordlePlus: Expanding Wordle’s Use through Natural Interaction and Animation"
   year: 2015
@@ -305,7 +322,6 @@
     - journal
     - paper
   type: Paper
-
 
 - id: radiology
   title: "Development of an Online Radiology Case Review System Featuring Interactive Navigation of Volumetric Image Datasets Using Advanced Visualization Techniques"
@@ -413,7 +429,7 @@
     - Jaemin Jo
     - Jinwook Seo
     - Jean-Daniel Fekete
-  presented: 
+  presented:
     title: Proceedings of the Workshop on Data Systems for Interactive Analysis
     abbr: DSIA 2017
     url: https://www.interactive-analysis.org/
@@ -433,7 +449,7 @@
     - Jaemin Jo
     - DongHwa Shin
     - Jinwook Seo
-  proc: 
+  proc:
     title: Proceedings of HCI KOREA 2018
     page: 745-748
     url: http://conference.hcikorea.org/hcik2018/
@@ -454,7 +470,7 @@
     - Bohyoung Kim
     - Jinwook Seo
   presented:
-    title: IEEE Information Visualization  
+    title: IEEE Information Visualization
     url: http://ieeevis.org/year/2016/info/vis-welcome/welcome
     venue: Baltimore, Maryland, USA
   url: http://ieeevis.org/year/2016/info/overview-amp-topics/posters
