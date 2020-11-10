@@ -6,36 +6,44 @@ title: Home
 <h1 class="page-heading"><span id="hello">Hello,</span> I'm Jaemin Jo</h1>
 
 <section id="intro">
-<p>
-I am an assistant professor at <a href="https://cs.skku.edu/">College of Computing</a>, <a href="https://www.skku.edu/">Sungkyunkwan University</a>.
-I research Human-Computer Interaction (HCI) and Information Visualization and my recent research interest is progressive visual analytics: systems that enable interactive data exploration of large-scale data by providing intermediate approximation during long-running computation. 
-I also love to contribute to open-source projects.
-You can reach me via e-mail (<a href="mailto:jmjo@skku.edu">jmjo@skku.edu</a>) or Github (<a href="https://www.github.com/e-">e-</a>)!
-</p>
-<img src="{{ site.data.meta.profile | relative_url }}" alt="Picture of Jaemin" width="240" height="240">
+  <p>
+    I am an assistant professor at
+    <a href="https://cs.skku.edu/">College of Computing</a>,
+    <a href="https://www.skku.edu/">Sungkyunkwan University</a> and directing
+    <a href="https://vis.skku.edu">Visualization Laboratory</a>. I research
+    Human-Computer Interaction (HCI) and Information Visualization. I also love
+    to contribute to open-source projects. You can reach me via e-mail (<a
+      href="mailto:jmjo@skku.edu"
+      >jmjo@skku.edu</a
+    >) or Github (<a href="https://www.github.com/e-">e-</a>)!
+  </p>
+  <img
+    src="{{ site.data.meta.profile | relative_url }}"
+    alt="Picture of Jaemin"
+    width="240"
+    height="240"
+  />
 </section>
 
 <h2>Selected Projects</h2>
 
 <section id="projects">
-{% assign selected_projects = site.data.projects | where_exp: "item", "item.selected" %}
-{% for proj in selected_projects %}
-    {% include project.html proj=proj %}
-{% endfor %}
+  {% assign selected_projects = site.data.projects | where_exp: "item",
+  "item.selected" %} {% for proj in selected_projects %} {% include project.html
+  proj=proj %} {% endfor %}
 </section>
 
 <h2>Selected Publications</h2>
 <section id="publications">
-{% assign selected_publications = site.data.publications | where_exp: "item", "item.selected" | sort: "year" | reverse %}
-{% for pub in selected_publications %}
-{% include publication.html pub = pub %} 
-{% endfor %}
+  {% assign selected_publications = site.data.publications | where_exp: "item",
+  "item.selected" | sort: "year" | reverse %} {% for pub in
+  selected_publications %} {% include publication.html pub = pub %} {% endfor %}
 </section>
 
 <script>
-    if(Math.random() < 0.2) {
-        let hello = document.querySelector('#hello');
-        hello.innerHTML = '안녕?';
-        hello.style.fontFamily = "'Noto Sans KR', sans-serif";
-    }
+  if (Math.random() < 0.2) {
+    let hello = document.querySelector("#hello");
+    hello.innerHTML = "안녕?";
+    hello.style.fontFamily = "'Noto Sans KR', sans-serif";
+  }
 </script>
