@@ -16,18 +16,17 @@
 title: Jaemin Jo
 email: jmjo@skku.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Jaemin Jo is an assistant professor at College of Computing, Sungkyunkwan University. Interested in Information Visualization, Progressive Visual Analytics, and Pen and Touch Interactions.
+  Jaemin Jo is an assistant professor at College of Computing and Informatics, Sungkyunkwan University. Interested in Human-Computer(AI)-Interaction and Information Visualization.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.jaeminjo.com" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  e-
+github_username: e-
 
 # Build settings
 markdown: kramdown
 theme: minima
 google_analytics: true
-
 #plugins:
-  # - jekyll-feed
+# - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
