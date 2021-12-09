@@ -1,3 +1,26 @@
+- id: rcmvis
+  title: "RCMVis: A Visual Analytics System for Route Choice Modeling"
+  year: 2021
+  authors:
+    - Donghwa Shin
+    - Jaemin Jo
+    - Bohyoung Kim
+    - Hyunjoo Song
+    - Shin-Hyung Cho
+    - Jinwook Seo
+  journal:
+    title: IEEE Transactions on Visualization and Computer Graphics
+    abbr: TVCG
+    url: http://ieeevis.org/year/2021/welcome
+    volume: 1
+    page: 1-1 (early access)
+  url: https://ieeexplore.ieee.org/document/9632413
+  attrs:
+    - international
+    - journal
+    - paper
+  type: Paper
+
 - id: jointtsne
   title: "Joint t-SNE for Comparable Projections of Multiple High-Dimensional Datasets"
   year: 2021
@@ -6,13 +29,13 @@
     - Lu Chen
     - Jaemin Jo
     - Yunhai Wang
-  proc:
+  journal:
     title: IEEE Transactions on Visualization and Computer Graphics
     abbr: TVCG, Proc. IEEE VIS 2021, 114 / 442 = 25.8%
     url: http://ieeevis.org/year/2021/welcome
-    ea: true
-    # page: 133-137      
-  # url: https://ieeexplore.ieee.org/document/9223736
+    volume: 1
+    page: 1-1 (early access)
+  url: https://ieeexplore.ieee.org/document/9552433
   attrs:
     - international
     - journal
@@ -28,13 +51,13 @@
     - Jaemin Jo
     - Youngtaek Kim
     - Jinwook Seo
-  proc:
+  journal:
     title: IEEE Transactions on Visualization and Computer Graphics
     abbr: TVCG, Proc. IEEE VIS 2021, 114 / 442 = 25.8%
     url: http://ieeevis.org/year/2021/welcome
-    ea: true
-    # page: 133-137      
-  # url: https://ieeexplore.ieee.org/document/9223736
+    volume: 1
+    page: 1-1 (early access)
+  url: https://ieeexplore.ieee.org/document/9552206
   attrs:
     - international
     - journal
